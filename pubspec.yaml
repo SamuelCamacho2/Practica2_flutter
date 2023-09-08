@@ -1,0 +1,23 @@
+name: practica2
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  carousel_slider: ^4.2.1
+  calendar_date_picker2: ^0.5.3
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  assets:
+    - images/
+  uses-material-design: true
